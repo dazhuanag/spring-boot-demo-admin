@@ -1,0 +1,26 @@
+server:
+  port: 8081
+
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8080/admin-server
+  application:
+    name: Spring Boot Client-1
+
+  mail:
+    #host: smtp.163.com
+    #username: R13260656629@163.com
+    #password: SWZXNYDUPUHAUHDP
+    host: smtp.qq.com
+    username: 1743460289@qq.com
+    password: cgkdwwopvurgdefi
+    efault-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true

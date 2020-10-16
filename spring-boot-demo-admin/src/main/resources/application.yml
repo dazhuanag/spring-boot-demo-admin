@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /admin-server
+
+spring:
+  boot:
+    admin:
+      ui:
+        title: admin-server服务监控中心
